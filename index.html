@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Forum Index</title>
+	<style>
+		body {
+			background-image: center url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpd7fv1DoafXLlH5oYvjVQ07vWLkxd8DKG_w&usqp=CAU');
+			background-size: cover;
+			color: #ff4d4d;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #444;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		h1 {
+			margin: 0;
+			font-size: 48px;
+			color: white;
+		}
+		
+		nav {
+			background-color: #333;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		nav a {
+			color: white;
+			text-decoration: none;
+			font-size: 24px;
+			padding: 10px;
+		}
+		
+		nav a:hover {
+			background-color: #444;
+		}
+		
+		section {
+			padding: 20px;
+			text-align: center;
+			background-color: rgba(0,0,0,0.7);
+			border-radius: 5px;
+			margin: 10px;
+		}
+		
+		footer {
+			background-color: #444;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		input[type=text], input[type=password], textarea {
+		  background-color: #333;
+		  border: 2px solid #ff4d4d;
+		  border-radius: 4px;
+		  color: white;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		  font-size: 16px;
+		}
+		
+		input[type=submit] {
+		  background-color: #ff4d4d;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		  font-size: 16px;
+		}
+		
+		textarea {
+		  resize: none;
+		  height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>SqLoSt Forum</h1>
+	</header>
+	
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">Forum</a>
+		<a href="#">Members</a>
+		<a href="#">About</a>
+	</nav>
+	
+	<section>
+		<h2>Welcome to the Forum by SqLoSt!</h2>
+		<p>This is a place for all things related to hacking and security.</p>
+		<form>
+			<label for="username">Username:</label><br>
+			<input type="text" id="username" name="username"><br>
+			<label for="password">Password:</label><br>
+			<input type="password" id="password" name="password"><br>
+			<label for="message">Message:</label><br>
+			<textarea id="message" name="message"></textarea><br>
+			<input type="submit" value="Submit">
+		</form>
+	</section>
+	
+	<footer>
+		<p>&copy; 2023 Forum İndex by SqLoSt. All rights reserved.</p>
+	</footer>
+</body>
+</html>
